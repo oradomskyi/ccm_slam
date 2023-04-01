@@ -55,6 +55,10 @@ If you use CCM-SLAM in an academic work, please cite:
 
 We have tested CCM-SLAM with **Ubuntu 16.04** (ROS Kinetic with OpenCV 3) as well as **Ubuntu 18.04** (ROS Melodic). It is recommended to use a decently powerful computer for the Server Node to ensure good performance for multi-agent SLAM.
 
+## Get the ROS Melodic
+
+http://wiki.ros.org/melodic/Installation/Ubuntu
+
 ## 3.1 Set up you environment ##
 
 **Note**: change *kinetic* for *indigo* or *melodic* if necessary.
@@ -68,9 +72,9 @@ sudo apt-get install python-catkin-tools
 ```
 mkdir -p ~/ccmslam_ws/src
 cd ~/ccmslam_ws
-source /opt/ros/kinetic/setup.bash
+source /opt/ros/melodic/setup.bash
 catkin init
-catkin config --extend /opt/ros/kinetic
+catkin config --extend /opt/ros/melodic
 ```
 
 3. Clone the source repo into your catkin workspace src folder:
